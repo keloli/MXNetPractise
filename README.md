@@ -1,0 +1,2 @@
+# MXNetPractise
+Begin learning MXNet
