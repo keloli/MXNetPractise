@@ -1,5 +1,5 @@
 # MXNetPractise
-This project is aim to record my learning process of a deep Learning framework,MXNet.  
+This project is aim to record my learning process of a deep Learning framework, MXNet.  
 ![](http://upload-images.jianshu.io/upload_images/984652-deffcd6c243e446c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ## Learning referrences:
 - [MXNet_Gluon Video](https://space.bilibili.com/209599371?spm_id_from=333.338.viewbox_report.7#/video)  
