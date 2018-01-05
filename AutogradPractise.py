@@ -1,4 +1,5 @@
-# 参考资料：http://zh.gluon.ai/chapter_crashcourse/autograd.html
+
+# # 参考资料：http://zh.gluon.ai/chapter_crashcourse/autograd.html
 import mxnet.ndarray as nd
 import mxnet.autograd as ag
 
@@ -40,6 +41,7 @@ with ag.record():
     z = y * x
 # 头梯度相当于提供了在前面乘的系数
 # 没有头梯度就默认系数为1
+# 头梯度相当于learning rate
 head_gradient = nd.array([[10, 1.], [.1, .01]])
 z.backward(head_gradient)
 print(x.grad)
